@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+#container {
+    background-color: darkgrey;
+    height: inherit;
+    width: 80%;
+    margin: auto;
+    min-height: 100%;
+
+
+
+}
+nav {
+    background-color: #5b9bd5;
+    height: 80px;
+    width: 100%;
+
+}
+nav table {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: inherit;
+}
+
+nav table tr td {
+    padding: 14px;
+}
+
+
+
+nav img {
+    float: left;
+    padding: 10px;
+}
+
+footer p{
+    height: 40px;
+    justify-content: center;
+    vertical-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #5b9bd5;
+}

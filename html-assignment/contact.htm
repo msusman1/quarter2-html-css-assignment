@@ -1,0 +1,81 @@
+<html>
+<head>
+    <title>Html Demo</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <style type="text/css">
+        #main_para {
+            padding: 1.4em;
+            font-size: large;
+        }
+
+        fieldset input {
+            padding: 5px;
+            margin: 8px;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <nav>
+        <img src="panacloude_logo.png">
+        <table>
+            <tr>
+                <td><a href="index.htm">Home</a></td>
+                <td><a href="about.htm">About</a></td>
+                <td><a href="portfolio.htm">Portfolio</a></td>
+                <td><a href="contact.htm">Contact</a></td>
+            </tr>
+        </table>
+
+    </nav>
+
+    <div id="main_para">
+
+
+        <fieldset>
+            <legend>Your Detail</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Name">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email">
+        </fieldset>
+
+        <br>
+        <br>
+
+
+        <fieldset>
+            <legend>Your Reviews</legend>
+            <label for="knowFrom">How did you know us?</label>
+            <select id="knowFrom">
+                <option>Google</option>
+                <option>Youtube</option>
+                <option>Facebook</option>
+            </select>
+
+            <br>
+            <label for="visiagain">Will you visit again?</label>
+            <input type="checkbox" id="visiagain">Yes</input>
+            <input type="checkbox" id="visiagain2">No</input>
+            <input type="checkbox" id="visiagain3">Maybe</input>
+            <br>
+            <label>Comments</label>
+            <br>
+            <textarea id="comment"
+                      cols="50" rows="5"></textarea>
+            <br>
+
+            <input type="checkbox" id="emailupdate">Sign me up for email updates?</input>
+            <br>
+            <input type="submit" id="submit">
+        </fieldset>
+
+
+    </div>
+    <footer>
+        <p>Copyright © 2019. All rights reserved</p>
+    </footer>
+</div>
+</body>
+</html>
